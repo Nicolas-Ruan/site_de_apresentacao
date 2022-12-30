@@ -211,14 +211,59 @@ main .main-right img{
     body {
         overflow-x: hidden;
     }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .main-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
     main .main-right .background-img{
         display: none;
+        width: none;
     }
 
     main .main-right img{
         display: none;
+        width: none;
     }
+
+
+
+    main .main-left .main-left--content {
+        width: 100%;
+        height: 50%;
+        margin: 0 40px;
+    }
+    
+    main .main-left .main-left--content .title {
+        font-size: 26px;
+    }
+    
+    main .main-left .main-left--content .p-box {
+        width: 70%;
+        height: auto;
+    }
+    
+    main .main-left .main-left--content .p-box p {
+        font-size: 20px;
+    }
+    
+    main .main-left .main-left--content h1 {
+        font-size: 3rem;
+        letter-spacing: 5px;
+        margin: 10px 0;
+    }
+    
+    main .main-left .main-left--content h1 span{
+        color: #e42e5b;
+    }
+    
 }
 
-@media screen and (max-width: )
